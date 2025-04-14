@@ -114,5 +114,5 @@ async def errors_handler(update, exception):
         logging.exception(f'CantParseEntities: {exception} \nUpdate: {update}')
         return True
     
->>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
+
     logging.exception(f'Update: {update} \n{exception}')

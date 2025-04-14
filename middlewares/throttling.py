@@ -72,5 +72,5 @@ class ThrottlingMiddleware(BaseMiddleware):
 
     async def message_throttled(self, message: types.Message, throttled: Throttled):
         if throttled.exceeded_count <= 2:
->>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
+
             await message.reply("<b>Iltimos kuting</b>")

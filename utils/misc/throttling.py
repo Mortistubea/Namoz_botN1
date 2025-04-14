@@ -30,5 +30,5 @@ def rate_limit(limit: int, key=None):
             setattr(func, 'throttling_key', key)
         return func
 
->>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
+
     return decorator

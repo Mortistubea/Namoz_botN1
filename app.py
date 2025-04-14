@@ -34,4 +34,4 @@ async def on_startup(dispatcher):
 
 if __name__ == '__main__':
     executor.start_polling(dp, on_startup=on_startup)
->>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
+
