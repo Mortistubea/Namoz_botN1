@@ -1,5 +1,11 @@
 aiogram==2.25.1
+<<<<<<< HEAD
 environs==8.0.0
 requests==2.32.3
 aiosqlite==0.21.0
 datetime==5.5
+=======
+aiosqlite==0.21.0
+requests==2.32.3
+environs==8.0.0
+>>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
