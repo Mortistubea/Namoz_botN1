@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import aiosqlite
 import requests
 import asyncio
@@ -117,7 +117,7 @@ async def send_prayer_times():
                 prayer_times = await get_prayer_times(city)
                 await bot.send_message(user_id, prayer_times)
             await asyncio.sleep(60)  # 1 daqiqa kutish
-=======
+
 import aiosqlite
 import requests
 import asyncio
@@ -236,5 +236,5 @@ async def send_prayer_times():
                 prayer_times = await get_prayer_times(city)
                 await bot.send_message(user_id, prayer_times)
             await asyncio.sleep(60)  # 1 daqiqa kutish
->>>>>>> cf14891cc75f301c7843a0f56a901e1633ff1309
+
         await asyncio.sleep(30)
