@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from aiogram import types
 
 
@@ -8,7 +8,7 @@ async def set_default_commands(dp):
             types.BotCommand("start", "Botni ishga tushurish"),
             types.BotCommand("help", "Yordam"),
         ]
-=======
+
 from aiogram import types
 
 

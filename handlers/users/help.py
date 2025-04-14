@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandHelp
 
@@ -11,7 +11,7 @@ async def bot_help(message: types.Message):
             "/start - Botni ishga tushirish",
             "/help - Yordam")
     
-=======
+
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandHelp
 

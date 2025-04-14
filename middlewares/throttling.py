@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import asyncio
 
 from aiogram import types, Dispatcher
@@ -35,7 +35,7 @@ class ThrottlingMiddleware(BaseMiddleware):
 
     async def message_throttled(self, message: types.Message, throttled: Throttled):
         if throttled.exceeded_count <= 2:
-=======
+
 import asyncio
 
 from aiogram import types, Dispatcher

@@ -60,7 +60,7 @@ async def get_prayer_times(city):
     hozirgi_vaqt = datetime.now().strftime('%H:%M')
 
     return f"""Namoz Vaqtlari:
-    =========================
+    ====
     \U0001F4CD 《 \U0001F307 {city} 》 vaqti bilan
     --------------------------------------------
     \U0001F30D  Hijri oy: - {hijri_month}
@@ -179,7 +179,7 @@ async def get_prayer_times(city):
     hozirgi_vaqt = datetime.now().strftime('%H:%M')
 
     return f"""Namoz Vaqtlari:
-    =========================
+    ====
     \U0001F4CD 《 \U0001F307 {city} 》 vaqti bilan
     --------------------------------------------
     \U0001F30D  Hijri oy: - {hijri_month}

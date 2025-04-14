@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
 
 
@@ -22,7 +22,7 @@ cities = ReplyKeyboardMarkup(
     resize_keyboard=True,
     one_time_keyboard=True,
 
-=======
+
 from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
 
 

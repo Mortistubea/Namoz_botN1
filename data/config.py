@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from environs import Env
 
 # environs kutubxonasidan foydalanish
@@ -7,7 +7,7 @@ env.read_env()
 
 
 BOT_TOKEN = env.str("BOT_TOKEN")  # Bot token
-=======
+
 from environs import Env
 
 # environs kutubxonasidan foydalanish
